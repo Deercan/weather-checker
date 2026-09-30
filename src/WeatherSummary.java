@@ -42,10 +42,14 @@ public class WeatherSummary {
             count++;
 
         }
+        double avg = sum / count;
 
         //output
         System.out.println("Min:" + min);
         System.out.println("Max: " + max);
+        System.out.println("Average: " + avg);
+
+        input.close();
 
 
 
